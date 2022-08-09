@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="id1" value=""><br>
+<input type="text" id="id2" value=""><br>
+<button onclick="kt2()">Kểm tra2</button>
+</body>
+<script>
+  function kt2(){
+    let a=+document.getElementById("id1").value
+    let b=+document.getElementById("id2").value
+    total=0
+    for(;a<=b;a++){
+      total=total+a
+    }
+    alert(total)
+  }
+</script>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="nam" value="">
+<button onclick="kt()">Kiểm tra</button>
+<script>
+  function kt(){
+    let nam=+document.getElementById("nam").value
+    theky=(nam-nam%100)/100+1
+    alert(nam+" thuộc thế kỷ "+ theky)
+  }
+</script>
+</body>
+</html>
