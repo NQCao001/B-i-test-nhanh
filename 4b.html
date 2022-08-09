@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="ketqua">Kết quả hiện tại đây</p>
+<input type="text" id="id1" value=""><br>
+<input type="text" id="id2" value=""><br>
+<button onclick="kt2()">Kểm tra2</button>
+<script>
+  function kt2(){
+    let b=+document.getElementById("id1").value
+    let c=+document.getElementById("id2").value
+    gt1=b**2;
+    gt2=c**2;
+    document.getElementById("ketqua").innerHTML="Giá trị a bình:"+gt1+",Giá trị b bình"+gt2
+
+  }
+</script>
+</body>
+</html>
